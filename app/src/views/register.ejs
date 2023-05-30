@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/login.css" />
+
+    <!-- login.js 파일 읽기 -->
+    <script src="/js/home/register.js" defer></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="login-triangle"></div>
+
+      <h2 class="login-header">Sign Up</h2>
+
+      <form class="login-container">
+        <p><input id="id" placeholder="아이디를 입력하세요" /></p>
+        <p></p>
+        <p><input id="name" placeholder="이름을 입력하세요" /></p>
+        <p>
+          <input id="password" placeholder="비밀번호를 입력하세요" />
+        </p>
+        <p>
+          <input
+            id="password_confirm"
+            placeholder="동일한 비밀번호를 입력하세요"
+          />
+        </p>
+        <button id="register-button" class="common-button">Submit</button>
+        <button
+          id="Log-button"
+          onclick="location.href = '/login' "
+          class="common-button"
+        >
+          Go Login!
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- Copyright (c) 2023 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) -->
